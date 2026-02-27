@@ -21,13 +21,6 @@ pip-delete-this-directory.txt
 *.sublime-workspace
 .idea/
 
-# Output files
-output/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-
 # OS files
 .DS_Store
 Thumbs.db

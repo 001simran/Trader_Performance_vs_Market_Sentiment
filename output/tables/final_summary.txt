@@ -1,0 +1,7 @@
+FINAL TAKEAWAYS
+----------------------------
+1. Greed regimes show higher average PnL.
+2. Sharpe ratio is stronger during Greed periods.
+3. Fear regimes exhibit deeper drawdowns.
+4. Top 10% traders remain profitable during Fear.
+5. Trade sizes increase during Greed phases.
