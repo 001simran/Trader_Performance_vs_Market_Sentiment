@@ -1,29 +1,40 @@
-# Python cache
+# ===============================
+# Python Cache Files
+# ===============================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Environment
-.env
+# ===============================
+# Virtual Environment
+# ===============================
+.venv/
 venv/
 env/
-*.egg-info/
-pip-log.txt
-pip-delete-this-directory.txt
 
-# IDE files
-.vscode/
-*.sublime-project
-*.sublime-workspace
-.idea/
+# ===============================
+# Jupyter Notebook Checkpoints
+# ===============================
+.ipynb_checkpoints/
 
-# OS files
+# ===============================
+# Environment Variables
+# ===============================
+.env
+
+# ===============================
+# OS Generated Files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# Logs
+# ===============================
+# VS Code Settings (optional)
+# ===============================
+.vscode/
+
+# ===============================
+# Temporary Files
+# ===============================
 *.log
+*.tmp
