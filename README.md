@@ -1,4 +1,4 @@
-# Trader Performance vs Market Sentiment (Hyperliquid)  
+# trader-sentiment-analysis/
 
 **Author:** Simranjit Kaur  
 **Role:** Data Science Intern  
@@ -12,20 +12,20 @@ We explore PnL, trade size, frequency, risk-adjusted returns, and behavioral pat
 ---
 
 ## Folder Structure
-Trader_Performance_vs_Market_Sentiment/
+
+trader-sentiment-analysis/
 │
-├── data/ # Input CSVs
-│ ├── fear_greed_index.csv
-│ └── historical_data.csv
+├── data/                     # Input CSV files
+│   ├── fear_greed_index.csv
+│   └── historical_data.csv
 │
-├── notebooks/ # Jupyter notebook analysis
-│ └── trader_analysis.ipynb
+├── notebook/                 # Jupyter notebook analysis
+│   └── analysiss.ipynb
 │
+├── output/                   # Generated charts and result tables
+│   ├── charts/
+│   └── tables/
 │
-├── output/ # Charts and tables
-│ ├── avg_pnl_by_sentiment.png
-│ ├── drawdown_by_sentiment.png
-│ └── sharpe_ratio.png
-│
-├── README.md # Project overview and instructions
-└── .gitignore # Files to ignore
+├── README.md
+├── requirements.txt
+└── .gitignore
